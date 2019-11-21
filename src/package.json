@@ -1,0 +1,14 @@
+{
+  "name": "easydb-io",
+  "version": "1.2.3",
+  "description": "EasyDB JavaScript Client",
+  "main": "bundle.js",
+  "scripts": {
+    "bundle-release": "rollup ./client.js --file bundle.js --format umd --name \"easydb-io\""
+  },
+  "author": "jakecooper",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
