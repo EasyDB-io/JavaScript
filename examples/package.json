@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "easydb-io": "1.2.3",
+    "easydb-io": "^2.0.0",
     "uuid": "^3.3.3"
   },
   "devDependencies": {

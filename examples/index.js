@@ -11,8 +11,8 @@ let db = easyDB({
 const runner = async () => {
   //while (true) {
   // db.Put(uuid(), { [uuid()]: uuid() });
-  db.Delete("e22975eb-1506-4881-b1ea-efaad7d44b8d");
-  const data = await db.List();
+  // db.delete("e22975eb-1506-4881-b1ea-efaad7d44b8d");
+  const data = await db.list((err, data) => console.log(data));
   console.log(data);
   //}
 };
