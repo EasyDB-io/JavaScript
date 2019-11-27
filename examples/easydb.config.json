@@ -3,6 +3,10 @@
     "default": {
       "uuid": "6091c45a-2ca9-4808-bb8d-1dbf42122818",
       "token": "5285d22c-9d1c-4c3a-8eee-ad67e92f1e24"
+    },
+    "alternate": {
+      "uuid": "9785cd23-6a42-4659-8518-713a99c77abb",
+      "token": "750f1876-f8e4-45fe-9f97-87805b893980"
     }
   },
   "url": "https://app.easydb.io"
