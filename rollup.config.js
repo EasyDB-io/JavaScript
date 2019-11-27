@@ -6,7 +6,8 @@ export default {
     format: "umd",
     globals: {
       axios: "Axios"
-    }
+    },
+    name: "easydb"
   },
   external: ["axios"] // <-- suppresses the warning
 };
