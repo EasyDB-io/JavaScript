@@ -2,14 +2,16 @@
   "name": "easydb-io",
   "version": "2.0.0",
   "description": "EasyDB JavaScript Client",
-  "main": "bundle.js",
+  "main": "./src/index.js",
   "scripts": {
     "build": "rollup -c"
   },
   "author": "jakecooper",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.0"
+    "axios": "^0.19.0",
+    "fs": "0.0.1-security",
+    "uuid": "^3.3.3"
   },
   "repository": {
     "type": "git",
